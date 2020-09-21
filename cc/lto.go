@@ -47,6 +47,8 @@ type LTOProperties struct {
 		Thin  *bool `android:"arch_variant"`
 	} `android:"arch_variant"`
 
+	GlobalThin *bool `blueprint:"mutated"`
+
 	// Dep properties indicate that this module needs to be built with LTO
 	// since it is an object dependency of an LTO module.
 	FullDep  bool `blueprint:"mutated"`
