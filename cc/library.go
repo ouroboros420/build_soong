@@ -202,6 +202,9 @@ type FlagExporterProperties struct {
 	// list of plain cc flags to be used for any module that links against this module.
 	Export_cflags []string  `android:"arch_variant"`
 
+	// list of plain cc flags to be used for any module that links against this module.
+	Export_cflags []string  `android:"arch_variant"`
+
 	Target struct {
 		Vendor, Product struct {
 			// list of exported include directories, like
