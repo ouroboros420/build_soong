@@ -98,6 +98,7 @@ var Configuration = map[string]PathConfig{
 	"stubby":  Allowed,
 	"tr":      Allowed,
 	"unzip":   Allowed,
+	"zcat":     Allowed,
 	"zip":     Allowed,
 	"arm-linux-androidkernel-as": Allowed,
 	"arm-linux-androidkernel-ld": Allowed,
